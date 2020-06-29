@@ -1,6 +1,6 @@
 class User
 def initialize(fname,lname)
-  @fname=fname
-  @lname=lname
+  @first_name=fname
+  @last_name=lname
 end
 end
