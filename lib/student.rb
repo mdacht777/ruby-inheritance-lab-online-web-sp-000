@@ -4,6 +4,6 @@ def initialize
 end
 def learn(a)
 
-  @KNOWLEDGE << a
+  KNOWLEDGE << a
 end
 end
