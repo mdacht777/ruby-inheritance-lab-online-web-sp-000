@@ -2,7 +2,8 @@ class Student < User
 def initialize
   @KNOWLEDGE=[]
 end
-def learn
-  @KNOWLEDGE << teacher.teach
+def learn(a)
+
+  @KNOWLEDGE << a
 end
 end
